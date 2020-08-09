@@ -1,10 +1,10 @@
-﻿using System;
+﻿﻿using System;
 
 namespace WebApplication.Models
 {
     public class Message
     {
-        public int Id { get; set; }
-        public string Text { get; set; }
+        private int Id { get; set; }
+        private string Text { get; set; }
     }
 }
